@@ -1,179 +1,175 @@
-<!doctype html>
-<html lang="en-GB">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Fin & Games — independent games by Sharker. Home of Caravan Park Tycoon.">
-  <title>Fin & Games — Independent Games by Sharker</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fin & Games | Caravan Park Tycoon</title>
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
   <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#top" aria-label="Fin & Games home">
-        <span class="brand-mark" aria-hidden="true"><span></span></span>
-        <span>FIN <b>&amp;</b> GAMES</span>
-      </a>
-      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
-      <div class="nav-links">
-        <a href="#game">The Game</a>
-        <a href="#studio">The Studio</a>
-        <a href="#devlog">Development</a>
-        <a class="nav-cta" href="#contact">Get in touch</a>
+    <div class="container nav-wrap">
+      <div class="brand">
+        <span class="pixel-icon">🚐</span>
+        <h1>Fin & Games</h1>
       </div>
-    </nav>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#devlog">Devlog</a>
+        <a href="#npc-creator" class="btn-nav">Create an NPC</a>
+      </nav>
+    </div>
   </header>
 
-  <main id="top">
+  <main>
+    <!-- Hero Section -->
     <section class="hero">
-      <div class="hero-water"></div>
-      <div class="container hero-inner">
-        <div class="hero-copy">
-          <p class="eyebrow">INDEPENDENT GAMES BY SHARKER</p>
-          <h1>Making games.<br><em>Making waves.</em></h1>
-          <p class="hero-text">
-            Fin &amp; Games is an independent game studio creating management,
-            simulation and whatever-looks-fun-next games.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#game">Meet Caravan Park Tycoon</a>
-            <a class="button secondary" href="#studio">About Fin &amp; Games</a>
-          </div>
-        </div>
-        <div class="hero-fin" aria-hidden="true">
-          <div class="fin"></div>
-          <div class="water-line"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="game-section" id="game">
-      <div class="container game-grid">
-        <div class="game-art placeholder-art">
-          <div class="art-sky"></div>
-          <div class="art-hill hill-one"></div>
-          <div class="art-hill hill-two"></div>
-          <div class="art-field">
-            <div class="caravan caravan-one"></div>
-            <div class="caravan caravan-two"></div>
-            <div class="tree tree-one"></div>
-            <div class="tree tree-two"></div>
-            <div class="tree tree-three"></div>
-          </div>
-          <span class="art-label">GAME ART<br>COMING SOON</span>
-        </div>
-
-        <div class="game-copy">
-          <p class="eyebrow">CURRENT PROJECT</p>
-          <h2>Caravan Park<br><em>Tycoon</em></h2>
-          <p class="lead">
-            Start with an overgrown farm and turn it into a thriving British
-            holiday park.
-          </p>
-          <p>
-            Clear the land, build pitches, grow the park, attract guests and
-            discover the delicate balance between making money and keeping the
-            place beautiful.
-          </p>
-
-          <div class="game-pillars">
-            <div><strong>🌳</strong><span>Shape the landscape</span></div>
-            <div><strong>🚐</strong><span>Build your park</span></div>
-            <div><strong>💷</strong><span>Manage the business</span></div>
-            <div><strong>😊</strong><span>Keep guests happy</span></div>
-          </div>
-
-          <a class="button primary" href="#" onclick="return false;">Coming to itch.io</a>
-          <p class="small-note">The game is currently in development.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="idea-section">
-      <div class="container idea-inner">
-        <p class="eyebrow">THE IDEA</p>
-        <h2>Build it. Fill it.<br><em>Don't ruin it.</em></h2>
-        <p>
-          More caravans mean more income. More development can mean less charm.
-          The challenge is finding the sweet spot between a beautiful park and
-          a profitable one.
-        </p>
-      </div>
-    </section>
-
-    <section class="studio-section" id="studio">
-      <div class="container studio-grid">
-        <div>
-          <p class="eyebrow">THE STUDIO</p>
-          <h2>Small studio.<br><em>Big ideas.</em></h2>
-        </div>
-        <div>
-          <p class="lead">
-            Fin &amp; Games is an independent game studio founded by
-            <strong>Sharker</strong>.
-          </p>
-          <p>
-            The studio is focused on management, simulation and indie games —
-            with no particular plan to stay in one genre for too long.
-          </p>
-          <p>
-            <strong>Caravan Park Tycoon</strong> is the first project.
-            It's being built from the ground up as a game that is approachable,
-            charming and just deep enough to make you think, “I'll put one more
-            caravan here.”
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="devlog-section" id="devlog">
       <div class="container">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">DEVELOPMENT</p>
-            <h2>From overgrown field<br><em>to holiday park.</em></h2>
-          </div>
-          <span class="status">● IN DEVELOPMENT</span>
-        </div>
-
-        <div class="devlog-grid">
-          <article class="dev-card">
-            <span class="dev-number">01</span>
-            <h3>The Beginning</h3>
-            <p>The first playable systems are taking shape: movement, interaction, land clearing and the foundations of the park.</p>
-          </article>
-          <article class="dev-card">
-            <span class="dev-number">02</span>
-            <h3>Building the Park</h3>
-            <p>Caravan pitches, facilities, landscaping and the first version of the park economy come together.</p>
-          </article>
-          <article class="dev-card">
-            <span class="dev-number">03</span>
-            <h3>Making Waves</h3>
-            <p>Guest behaviour, park appeal, events and the things that make the holiday park feel alive.</p>
-          </article>
+        <h2>Build Your Dream British Holiday Park</h2>
+        <p class="subtitle">A cozy 16-bit management sim built with Godot. Pitch tents, lay gravel pads, place luxury glamping pods, and balance coastal tranquil appeal.</p>
+        <div class="hero-actions">
+          <a href="#npc-creator" class="btn btn-primary">Try the NPC Builder</a>
+          <a href="https://itch.io" target="_blank" rel="noopener" class="btn btn-secondary">Wishlist on Itch.io</a>
         </div>
       </div>
     </section>
 
-    <section class="contact-section" id="contact">
-      <div class="container contact-inner">
-        <p class="eyebrow">FIN &amp; GAMES</p>
-        <h2>Want to follow<br><em>the journey?</em></h2>
-        <p>More development news, screenshots and the eventual itch.io release will appear here.</p>
-        <a class="button secondary" href="mailto:hello@finandgames.co.uk">hello@finandgames.co.uk</a>
+    <!-- Interactive NPC Sampler Section -->
+    <section id="npc-creator" class="npc-section">
+      <div class="container">
+        <div class="section-title">
+          <span class="badge">Supporter Showcase</span>
+          <h2>Design a Park Visitor</h2>
+          <p>Test the modular paperdoll system. Visitors designed here generate the JSON schema used directly in our Godot 4 game engine.</p>
+        </div>
+
+        <div class="creator-card">
+          <!-- Canvas Live Preview -->
+          <div class="preview-pane">
+            <div class="canvas-frame">
+              <canvas id="npcCanvas" width="128" height="128"></canvas>
+            </div>
+            <div class="guest-card">
+              <h3 id="displayGuestName">Uncle Barry</h3>
+              <p class="origin" id="displayGuestOrigin">From: Great Yarmouth</p>
+              <div class="thought-bubble" id="displayGuestThought">
+                "Looking forward to an ice cream by the clifftop."
+              </div>
+            </div>
+          </div>
+
+          <!-- Customization Controls -->
+          <div class="controls-pane">
+            <form id="npcForm" onsubmit="event.preventDefault();">
+              <div class="form-group">
+                <label for="npcName">Visitor Name</label>
+                <input type="text" id="npcName" value="Uncle Barry" maxlength="24">
+              </div>
+
+              <div class="form-group">
+                <label for="npcHometown">Hometown</label>
+                <input type="text" id="npcHometown" value="Great Yarmouth" maxlength="32">
+              </div>
+
+              <div class="control-grid">
+                <div class="form-group">
+                  <label for="skinTone">Skin Tone</label>
+                  <select id="skinTone">
+                    <option value="#ffd1b3">Fair</option>
+                    <option value="#dca176">Warm Tan</option>
+                    <option value="#845334">Deep Bronze</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="hairStyle">Hair Style</label>
+                  <select id="hairStyle">
+                    <option value="messy">Messy Fringe</option>
+                    <option value="balding">Balding Fringe</option>
+                    <option value="ponytail">Ponytail</option>
+                    <option value="short">Classic Short</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="hairColor">Hair Color</label>
+                  <input type="color" id="hairColor" value="#4a3728">
+                </div>
+
+                <div class="form-group">
+                  <label for="topOutfit">Top</label>
+                  <select id="topOutfit">
+                    <option value="hawaiian">Hawaiian Shirt</option>
+                    <option value="gilet">Fleece Gilet</option>
+                    <option value="raincoat">Yellow Mac</option>
+                    <option value="hoodie">Cozy Hoodie</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="bottomOutfit">Bottoms</label>
+                  <select id="bottomOutfit">
+                    <option value="cargo">Cargo Shorts</option>
+                    <option value="jeans">Classic Jeans</option>
+                    <option value="trackie">Tracksuit Bottoms</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="accessory">Accessory</label>
+                  <select id="accessory">
+                    <option value="flatcap">Flat Cap</option>
+                    <option value="buckethat">Bucket Hat</option>
+                    <option value="sunglasses">Sunglasses</option>
+                    <option value="none">None</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="export-actions">
+                <button type="button" id="btnRandom" class="btn btn-secondary">Randomise</button>
+                <button type="button" id="btnExport" class="btn btn-primary">View Game JSON Recipe</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Output JSON Preview -->
+        <div id="jsonModal" class="json-preview hidden">
+          <h4>Godot 4 Ingestion Recipe (`manifest.json`)</h4>
+          <pre><code id="jsonOutput"></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- Devlog Timeline -->
+    <section id="devlog" class="devlog-section">
+      <div class="container">
+        <h2>Latest Devlogs</h2>
+        <div class="log-grid">
+          <article class="log-card">
+            <span class="date">Devlog #03</span>
+            <h3>Solving the Modular 2D Paperdoll System</h3>
+            <p>Exporting multi-layered clothing on identical canvases so that Godot’s AnimationPlayer drives hair, shoes, and coats in perfect lockstep.</p>
+          </article>
+          <article class="log-card">
+            <span class="date">Devlog #02</span>
+            <h3>Pitch Tiers: From Tents to Luxury Timber Pods</h3>
+            <p>Balancing grass erosion from tent pitches against the high install cost and appeal radiance of cedar-clad glamping pods.</p>
+          </article>
+          <article class="log-card">
+            <span class="date">Devlog #01</span>
+            <h3>Setting Up the Godot & Bazzite Pipeline</h3>
+            <p>Running local SD generation and syncing private Git repos within an immutable Linux environment.</p>
+          </article>
+        </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <span class="brand-mark small" aria-hidden="true"><span></span></span>
-        <strong>FIN &amp; GAMES</strong>
-      </div>
-      <p>© <span id="year"></span> Fin &amp; Games. Games by Sharker.</p>
-      <p>Built independently in the UK.</p>
+    <div class="container footer-content">
+      <p>&copy; Fin & Games. Built for indie game development.</p>
     </div>
   </footer>
 
